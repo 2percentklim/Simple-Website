@@ -1,0 +1,60 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --red: #FF0000;
+    --yellow: #FFFF00;
+    --blue: #0000FF;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+    font-size: 20px;
+    color: var(--red);
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--blue);
+    --btnBorderColor: var(--blue);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--red);
+    --btnBorderColor: var(--red);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: var(--btnBorderColor) solid 10px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
