@@ -1,4 +1,5 @@
 :root {
+    /* Add your CSS variables here */
     --green: #00FF00;
     --white: #FFFFFF;
     --black: #000000;
@@ -7,6 +8,7 @@
     --blue: #0000FF;
 }
 
+/* Apply the CSS variables to body, list, and message elements */
 body {
     background: var(--bg);
     color: var(--fontColor);
@@ -31,6 +33,7 @@ li {
     color: var(--red);
 }
 
+/* Create light and dark theme classes below */
 .light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
@@ -47,6 +50,7 @@ li {
     --btnBorderColor: var(--red);
 }
 
+/* Style the button below */
 .btn {
     position: absolute;
     top: 20px;
